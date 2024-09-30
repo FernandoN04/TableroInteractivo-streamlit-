@@ -1,5 +1,5 @@
 import streamlit as st
-import funciones.funcion as fs
+import funcion as fs
 #este codigo se encarga de inicializar una lista en streamlit
 if 'lista' not in st.session_state:
     st.session_state.lista = []
